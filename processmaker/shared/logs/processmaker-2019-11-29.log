@@ -1,0 +1,66 @@
+[2019-11-29 12:15:06] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected '}' in /opt/processmaker/workflow/engine/classes/class.pmScript.php(318) : eval()'d code:3
+Stack trace:
+#0 /opt/processmaker/workflow/engine/classes/class.pmScript.php(473): PMScript->executeAndCatchErrors('try {\n$this->aF...', '@@current_date ...')
+#1 /opt/processmaker/workflow/engine/classes/Cases.php(3425): PMScript->execute()
+#2 /opt/processmaker/workflow/engine/classes/Cases.php(3348): Cases->executeTriggerFromList(Array, Array, 'DYNAFORM', '6213591175d6985...', 'BEFORE')
+#3 /opt/processmaker/workflow/engine/methods/cases/cases_Step.php(218): Cases->executeTriggers('1753087545d6985...', 'DYNAFORM', '6213591175d6985...', 'BEFORE', Array)
+#4 /opt/processmaker/workflow/public_html/sysGeneric.php(1062): require_once('/opt/processmak...')
+#5 /opt/processmaker/workflow/public_html/app.php(45): include('/opt/processmak...')
+#6 {main}  
+[2019-11-29 12:15:26] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected '}' in /opt/processmaker/workflow/engine/classes/class.pmScript.php(318) : eval()'d code:3
+Stack trace:
+#0 /opt/processmaker/workflow/engine/classes/class.pmScript.php(473): PMScript->executeAndCatchErrors('try {\n$this->aF...', '@@current_date ...')
+#1 /opt/processmaker/workflow/engine/classes/Cases.php(3425): PMScript->execute()
+#2 /opt/processmaker/workflow/engine/classes/Cases.php(3348): Cases->executeTriggerFromList(Array, Array, 'DYNAFORM', '6213591175d6985...', 'BEFORE')
+#3 /opt/processmaker/workflow/engine/methods/cases/cases_Step.php(218): Cases->executeTriggers('1753087545d6985...', 'DYNAFORM', '6213591175d6985...', 'BEFORE', Array)
+#4 /opt/processmaker/workflow/public_html/sysGeneric.php(1062): require_once('/opt/processmak...')
+#5 /opt/processmaker/workflow/public_html/app.php(45): include('/opt/processmak...')
+#6 {main}  
+[2019-11-29 13:43:35] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'if' (T_IF) in /opt/processmaker/workflow/engine/classes/class.pmScript.php(318) : eval()'d code:7
+Stack trace:
+#0 /opt/processmaker/workflow/engine/classes/class.pmScript.php(473): PMScript->executeAndCatchErrors('try {\n$this->aF...', '@@current_date ...')
+#1 /opt/processmaker/workflow/engine/classes/Cases.php(3425): PMScript->execute()
+#2 /opt/processmaker/workflow/engine/classes/Cases.php(3348): Cases->executeTriggerFromList(Array, Array, 'DYNAFORM', '6403267205de0f1...', 'AFTER')
+#3 /opt/processmaker/workflow/engine/methods/cases/cases_SaveData.php(151): Cases->executeTriggers('1753087545d6985...', 'DYNAFORM', '6403267205de0f1...', 'AFTER', Array)
+#4 /opt/processmaker/workflow/public_html/sysGeneric.php(1062): require_once('/opt/processmak...')
+#5 /opt/processmaker/workflow/public_html/app.php(45): include('/opt/processmak...')
+#6 {main}  
+[2019-11-29 13:44:21] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'if' (T_IF) in /opt/processmaker/workflow/engine/classes/class.pmScript.php(318) : eval()'d code:7
+Stack trace:
+#0 /opt/processmaker/workflow/engine/classes/class.pmScript.php(473): PMScript->executeAndCatchErrors('try {\n$this->aF...', '@@current_date ...')
+#1 /opt/processmaker/workflow/engine/classes/Cases.php(3425): PMScript->execute()
+#2 /opt/processmaker/workflow/engine/classes/Cases.php(3348): Cases->executeTriggerFromList(Array, Array, 'DYNAFORM', '6403267205de0f1...', 'AFTER')
+#3 /opt/processmaker/workflow/engine/methods/cases/cases_SaveData.php(151): Cases->executeTriggers('1753087545d6985...', 'DYNAFORM', '6403267205de0f1...', 'AFTER', Array)
+#4 /opt/processmaker/workflow/public_html/sysGeneric.php(1062): require_once('/opt/processmak...')
+#5 /opt/processmaker/workflow/public_html/app.php(45): include('/opt/processmak...')
+#6 {main}  
+[2019-11-29 13:49:14] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'catch' (T_CATCH), expecting end of file in /opt/plugins/testPlugin/testPlugin/classes/class.pmFunctions.php:44
+Stack trace:
+#0 /opt/processmaker/workflow/engine/src/ProcessMaker/Plugins/Traits/Init.php(16): ProcessMaker\Plugins\PluginRegistry->initFunction()
+#1 /opt/processmaker/workflow/public_html/sysGeneric.php(709): ProcessMaker\Plugins\PluginRegistry->init()
+#2 /opt/processmaker/workflow/public_html/app.php(45): include('/opt/processmak...')
+#3 {main}  
+[2019-11-29 13:49:17] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'catch' (T_CATCH), expecting end of file in /opt/plugins/testPlugin/testPlugin/classes/class.pmFunctions.php:44
+Stack trace:
+#0 /opt/processmaker/workflow/engine/src/ProcessMaker/Plugins/Traits/Init.php(16): ProcessMaker\Plugins\PluginRegistry->initFunction()
+#1 /opt/processmaker/workflow/public_html/sysGeneric.php(709): ProcessMaker\Plugins\PluginRegistry->init()
+#2 /opt/processmaker/workflow/public_html/app.php(45): include('/opt/processmak...')
+#3 {main}  
+[2019-11-29 14:01:39] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected ';', expecting ')' in /opt/plugins/testPlugin/testPlugin/classes/class.pmFunctions.php:43
+Stack trace:
+#0 /opt/processmaker/workflow/engine/src/ProcessMaker/Plugins/Traits/Init.php(16): ProcessMaker\Plugins\PluginRegistry->initFunction()
+#1 /opt/processmaker/workflow/public_html/sysGeneric.php(709): ProcessMaker\Plugins\PluginRegistry->init()
+#2 /opt/processmaker/workflow/public_html/app.php(45): include('/opt/processmak...')
+#3 {main}  
+[2019-11-29 14:01:52] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected '$e' (T_VARIABLE), expecting ')' in /opt/plugins/testPlugin/testPlugin/classes/class.pmFunctions.php:43
+Stack trace:
+#0 /opt/processmaker/workflow/engine/src/ProcessMaker/Plugins/Traits/Init.php(16): ProcessMaker\Plugins\PluginRegistry->initFunction()
+#1 /opt/processmaker/workflow/public_html/sysGeneric.php(709): ProcessMaker\Plugins\PluginRegistry->init()
+#2 /opt/processmaker/workflow/public_html/app.php(45): include('/opt/processmak...')
+#3 {main}  
+[2019-11-29 14:02:06] production.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected ')', expecting ';' in /opt/plugins/testPlugin/testPlugin/classes/class.pmFunctions.php:43
+Stack trace:
+#0 /opt/processmaker/workflow/engine/src/ProcessMaker/Plugins/Traits/Init.php(16): ProcessMaker\Plugins\PluginRegistry->initFunction()
+#1 /opt/processmaker/workflow/public_html/sysGeneric.php(709): ProcessMaker\Plugins\PluginRegistry->init()
+#2 /opt/processmaker/workflow/public_html/app.php(45): include('/opt/processmak...')
+#3 {main}  
